@@ -1,5 +1,4 @@
 
-```markdown
 # PDF Diff Web App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -156,6 +155,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Enjoy using the PDF Diff Web App and happy coding!
-```
-
-Now, when you paste this content into your README.md in VS Code (or any editor), all characters should appear properly, and your documentation will have a professional look with all the desired sections and formatting.
