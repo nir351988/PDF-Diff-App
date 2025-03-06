@@ -36,7 +36,7 @@ This project provides a lightweight web interface that extracts text from two up
 
 - **Upload & Compare:** Upload two PDF files and see their differences highlighted side-by-side.
 - **Web-Based Interface:** Access the application via your browser.
-- **Flexible Deployment:** Run locally with Python or via Docker container.
+- **Flexible Deployment:** Run locally with Python or via a Docker container.
 - **Lightweight & Efficient:** Designed for quick comparisons even on low-resource machines.
 
 ---
@@ -59,19 +59,19 @@ This project provides a lightweight web interface that extracts text from two up
    cd PDF-Diff-App
    ```
 
-1. **Build the Docker Image:**
+2. **Build the Docker Image:**
 
    ```sh
    docker build -t pdf-diff-app .
    ```
 
-1. **Run the Docker Container:**
+3. **Run the Docker Container:**
 
    ```sh
    docker run -p 5000:5000 pdf-diff-app
    ```
 
-Your application should now be running at http://localhost:5000.
+Your application should now be running at [http://localhost:5000](http://localhost:5000).
 
 ---
 
@@ -84,26 +84,26 @@ Your application should now be running at http://localhost:5000.
    cd PDF-Diff-App
    ```
 
-1. **Install Dependencies:**
+2. **Install Dependencies:**
 
    ```sh
    pip install -r requirements.txt
    ```
 
-1. **Start the Application:**
+3. **Start the Application:**
 
    ```sh
    python app.py
    ```
 
-After starting the application, open your web browser and navigate to http://localhost:5000.
+After starting the application, open your browser and navigate to [http://localhost:5000](http://localhost:5000).
 
 ---
 
-### Usage
+## Usage
 
 1. **Open the Application:**
-   - Visit http://localhost:5000 in your web browser.
+   - Visit [http://localhost:5000](http://localhost:5000) in your web browser.
 2. **Upload PDFs:**
    - Use the provided form to select two PDF files from your device.
 3. **Compare PDFs:**
@@ -113,7 +113,7 @@ After starting the application, open your web browser and navigate to http://loc
 
 ---
 
-### Project Structure
+## Project Structure
 
 ```
 PDF-Diff-App/
@@ -126,7 +126,7 @@ PDF-Diff-App/
 
 ---
 
-### Contributing
+## Contributing
 
 Contributions are welcome and encouraged! If you'd like to help improve this project:
 
@@ -136,19 +136,19 @@ Contributions are welcome and encouraged! If you'd like to help improve this pro
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request describing your changes.
 
-Alternatively, if you encounter any bugs or have feature suggestions, you can open an issue on GitHub Issues.
+Alternatively, if you encounter any bugs or have feature suggestions, you can open an issue on [GitHub Issues](https://github.com/nir351988/PDF-Diff-App/issues).
 
 ---
 
-### License
+## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### Additional Information
+## Additional Information
 
-- **Docker Hub:** You can find the Docker image on Docker Hub at https://hub.docker.com/r/nir351988/pdf-diff-app.
+- **Docker Hub:** You can find the Docker image on Docker Hub at [https://hub.docker.com/r/nir351988/pdf-diff-app](https://hub.docker.com/r/nir351988/pdf-diff-app).
 - **Live Demo:** (Optional) If you decide to host this project live, provide the URL here.
 - **Screenshots:** (Optional) Include screenshots of the web app to give users a visual feel of the application.
 - **FAQ / Troubleshooting:** (Optional) Add any FAQs or common issues users might face with troubleshooting steps.
@@ -158,4 +158,4 @@ This project is licensed under the MIT License.
 Enjoy using the PDF Diff Web App and happy coding!
 ```
 
-Simply copy the entire block above and paste it directly into your README.md file in VS Code. This version contains everything in one place, ensuring that no characters are lost during the copy-paste process.
+Now, when you paste this content into your README.md in VS Code (or any editor), all characters should appear properly, and your documentation will have a professional look with all the desired sections and formatting.
