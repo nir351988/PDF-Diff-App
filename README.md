@@ -1,6 +1,4 @@
 
-Below is the complete README.md file in a single block. Simply copy and paste all the content into your README.md file without any characters missing:
-
 ```markdown
 # PDF Diff Web App
 
