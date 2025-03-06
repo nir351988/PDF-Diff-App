@@ -1,3 +1,4 @@
+Below is the complete README.md file in a single block. You can copy and paste the entire content directly into your README.md without any characters going missing.
 # PDF Diff Web App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -55,3 +56,63 @@ This project provides a lightweight web interface that extracts text from two up
    ```sh
    git clone https://github.com/nir351988/PDF-Diff-App.git
    cd PDF-Diff-App
+CopyInsert
+1.	Build the Docker Image:
+2.	docker build -t pdf-diff-app .
+CopyInsert
+3.	Run the Docker Container:
+4.	docker run -p 5000:5000 pdf-diff-app
+CopyInsert
+Your application should now be running at http://localhost:5000.
+________________________________________
+Running Locally
+1.	Clone the Repository:
+2.	git clone https://github.com/nir351988/PDF-Diff-App.git
+3.	cd PDF-Diff-App
+CopyInsert
+4.	Install Dependencies:
+5.	pip install -r requirements.txt
+CopyInsert
+6.	Start the Application:
+7.	python app.py
+CopyInsert
+After starting the application, open your web browser and navigate to http://localhost:5000.
+________________________________________
+Usage
+1.	Open the Application:
+•	Visit http://localhost:5000 in your web browser.
+2.	Upload PDFs:
+•	Use the provided form to select two PDF files from your device.
+3.	Compare PDFs:
+•	Click on "Compare PDFs" to process the files.
+4.	View Diff:
+•	The application will display a side-by-side HTML diff highlighting changes between the two PDFs.
+________________________________________
+Project Structure
+PDF-Diff-App/
+├── app.py                # Flask web application code
+├── requirements.txt      # Python dependency file
+├── Dockerfile            # Docker configuration file for containerization
+├── README.md             # This file (Project documentation)
+└── LICENSE               # MIT License file (if applicable)
+CopyInsert
+________________________________________
+Contributing
+Contributions are welcome and encouraged! If you'd like to help improve this project:
+1.	Fork the repository.
+2.	Create your feature branch (git checkout -b feature/YourFeature).
+3.	Commit your changes (git commit -m 'Add some feature').
+4.	Push to the branch (git push origin feature/YourFeature).
+5.	Open a pull request describing your changes.
+Alternatively, if you encounter any bugs or have feature suggestions, you can open an issue on GitHub Issues.
+________________________________________
+License
+This project is licensed under the MIT License.
+________________________________________
+Additional Information
+•	Docker Hub: You can find the Docker image on Docker Hub at https://hub.docker.com/r/nir351988/pdf-diff-app.
+•	Live Demo: (Optional) If you decide to host this project live, provide the URL here.
+•	Screenshots: (Optional) Include screenshots of the web app to give users a visual feel of the application.
+•	FAQ / Troubleshooting: (Optional) Add any FAQs or common issues users might face with troubleshooting steps.
+________________________________________
+Enjoy using the PDF Diff Web App and happy coding!
